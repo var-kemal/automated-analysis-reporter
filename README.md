@@ -23,7 +23,7 @@ Burada:
 
 Ek hesaplamalar:
 
-![Delta R Denklemi](https://latex.codecogs.com/svg.latex?\color{White}\Delta&space;R(\%)&space;=&space;\frac{P_1&space;-&space;P_0}{P_0}&space;\times&space;100)
+![Delta R Denklemi](https://latex.codecogs.com/svg.latex?\color{Black}\Delta&space;R(\%)&space;=&space;\frac{P_1&space;-&space;P_0}{P_0}&space;\times&space;100)
 
 Burada:
 - **$P_1$**: Cari (Yeni) Değer
