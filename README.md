@@ -33,8 +33,8 @@ Ek hesaplamalar:
 📈 Grafikler
 
 	Yıllık Değişim Grafiği
- ![image_alt](assets/biber_fiyat_endeksi_aylik.png)(https://github.com/var-kemal/automated-analysis-reporter/blob/f51ed5f6cb642c4d08d3e81e0a92d7f73063d734/yearly_plot.png)
- 
+![image alt](https://github.com/var-kemal/automated-analysis-reporter/blob/deb6bffbdc1ad3dc59b8c0a7bc334e7262b2b9a0/yearly_plot.png)
+
 Eylül ayında yıllık miktar endekslerinde; biber miktar endeksi ortalama civarında. Yıllık fiyat endekslerinde; biber fiyat endeksi ortalama civarında.
 
 	Aylık Değişim Grafiği
