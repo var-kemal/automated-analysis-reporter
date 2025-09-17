@@ -38,6 +38,8 @@ Ek hesaplamalar:
 Eylül ayında yıllık miktar endekslerinde; biber miktar endeksi ortalama civarında. Yıllık fiyat endekslerinde; biber fiyat endeksi ortalama civarında.
 
 	Aylık Değişim Grafiği
+ ![image_alt](https://github.com/var-kemal/automated-analysis-reporter/blob/ff8e1d25343c3641dc00b099b8af7668fec7b8c3/monthly_quantity.png)
+ 
 Eylül ayında biber fiyat endeksi yıllık bazda yüzde 3.50 azaldı. Aynı dönemde biberin yıllık işlem miktarı yüzde 6.58 oranında arttı. Bu durum fiyat endeksindeki düşüşte etkili olmuştur.
 Eylül ayında, son yedi yılın verileri dikkate alındığında biber satış miktarı ortalama civarında olarak kaydedildi. Biber fiyat seviyesi ortalama civarında olarak gerçekleşti.
 Eylül ayında biber işlem miktar endeksi yüzde 24.21 azalırken, işlem fiyat endeksi yüzde 0.62 artış gösterdi; son yedi yılın Eylül ayları dikkate alındığında, işlem miktar endeksi altıncı en büyük azalış; son yedi yılın Eylül ayları dikkate alındığında, işlem fiyat endeksi beşinci en büyük artış olarak kaydedildi.
