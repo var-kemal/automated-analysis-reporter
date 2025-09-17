@@ -1,4 +1,5 @@
 🎯 Proje Amacı, ticaret borsası'ndan alınan tarımsal ürün verilerini kullanarak karmaşık fiyat ve miktar analiz süreçlerini otomatikleştirmek için geliştirilmiş bir çözümdür. Uygulama, kullanıcıların Excel üzerinden kolayca veri girişi yapmasına olanak tanırken, aylık ve yıllık bazda fiyat ve miktar endekslerini otomatik olarak hesaplar. Elde edilen analiz sonuçları, zengin grafikler ve metinsel yorumlarla desteklenerek kapsamlı Word raporlarına dönüştürülür ve verilerin geçmiş yıllarla karşılaştırmalı olarak incelenmesine olanak tanır.
+
 🚀 Özellikler
 - 📂 **Excel Veri Tabanı**: `data.xlsx` dosyasında tüm ürünler saklanır.  
 - ✍️ **Veri Girişi Arayüzü**: Kullanıcı yeni veri ekleyebilir, düzenleyebilir veya silebilir.  
@@ -8,12 +9,16 @@
 - 📊 **Endeks Hesaplamaları**: Laspeyres fiyat endeksi yöntemi uygulanır.  
 
 🧮 Kullanılan Matematiksel Yöntemler
+
 📌 Laspeyres Fiyat Endeksi 
+
 \mathbit{P}_\mathbit{L}=\ \frac{\sum{(\mathbit{p}_\mathbit{t}\ast\mathbit{q}_\mathbf{0})}}{\sum{(\mathbit{p}_\mathbf{0}\ast\mathbit{q}_\mathbf{0})}}
 	\mathbit{p}_\mathbit{t} : Cari Dönem Fiyatı
 	\mathbit{p}_\mathbf{0} : Temel Yıl Fiyatı
 	\mathbit{q}_\mathbf{0}\ : Temel Yıl İşlem Miktarı
+
 Ek hesaplamalar:
+
 \mathbit{\Delta R}(%)=\frac{\mathbit{P}_\mathbf{1}-\mathbit{P}_\mathbf{0}}{\mathbit{P}_\mathbf{0}}\ \times\ \mathbf{100}
 	\mathbit{P}_\mathbf{0} : Eski Değer
 	\mathbit{P}_\mathbf{1} : Cari Değer
@@ -24,6 +29,7 @@ Ek hesaplamalar:
 
 
 📑 Örnek Rapor Çıktısı (Eylül 2025 – Biber)
+
 📈 Grafikler
 
 	Yıllık Değişim Grafiği
@@ -47,7 +53,8 @@ Eylül ayında biber işlem miktar endeksi yüzde 24.21 azalırken, işlem fiyat
 
 
 🧑‍💻 Kullanıcı Senaryosu
-	Kullanıcı uygulamayı açar (UrunlerAnalizRapor.exe).
+	
+ 	Kullanıcı uygulamayı açar (UrunlerAnalizRapor.exe).
 	“Veri Girişi” menüsünden Domates – 2023 – Mart – 25.000.000 kg – 300.000.000 ₺ bilgisi ekler.
 	Sistem veriyi data.xlsx içine işler.
 	“Rapor Oluştur” seçeneği ile Mart 2023 raporu üretilir.
