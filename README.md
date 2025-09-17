@@ -23,7 +23,7 @@ Burada:
 
 Ek hesaplamalar:
 
-$$\Delta R(\%) = \frac{P_1 - P_0}{P_0} \times 100$$
+![Percentage Change Formula](https://latex.codecogs.com/png.latex?\Delta%20R%28\%\)%20=%20\frac{P_1%20-%20P_0}{P_0}%20\times%20100)
 
 Burada:
 - **$P_1$**: Cari (Yeni) Değer
