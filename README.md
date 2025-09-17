@@ -23,7 +23,7 @@ Burada:
 
 Ek hesaplamalar:
 
-ΔR(%) = (P₁ - P₀) / P₀ × 100
+![Formula](https://latex.codecogs.com/png.latex?\Delta%20R%28\%\)%20=%20\frac{P_1%20-%20P_0}{P_0}%20\times%20100)
 
 Burada:
 - **$P_1$**: Cari (Yeni) Değer
