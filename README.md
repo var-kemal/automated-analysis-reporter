@@ -24,7 +24,7 @@ Burada:
 Ek hesaplamalar:
 
 $$
-\Delta R(\%) = \frac{P_1 - P_0}{P_0} \times 100
+Delta R(\%) = \frac{P_1 - P_0}{P_0} \times 100
 $$
 
 Burada:
@@ -139,9 +139,4 @@ Kullanılan Kütüphaneler
 Kemal Gvaramadze
 
 kemalgvaramadze.is@gmail.com
-
-#Data_Analysis
-#Artificial_Intelligence
-#Python
-
 
