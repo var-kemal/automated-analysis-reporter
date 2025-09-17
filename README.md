@@ -23,7 +23,7 @@ Burada:
 
 Ek hesaplamalar:
 
-<p>&Delta;R(%) = (P<sub>1</sub> - P<sub>0</sub>) / P<sub>0</sub> &times; 100</p>
+![Delta R Denklemi](https://latex.codecogs.com/svg.latex?\Delta&space;R(\%)&space;=&space;\frac{P_1&space;-&space;P_0}{P_0}&space;\times&space;100)
 
 Burada:
 - **$P_1$**: Cari (Yeni) Değer
