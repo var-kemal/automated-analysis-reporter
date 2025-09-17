@@ -28,9 +28,8 @@ Ek hesaplamalar:
 📈 Grafikler
 
 	Yıllık Değişim Grafiği
+ ![image_alt](https://github.com/var-kemal/automated-analysis-reporter/blob/f51ed5f6cb642c4d08d3e81e0a92d7f73063d734/yearly_plot.png)
 Eylül ayında yıllık miktar endekslerinde; biber miktar endeksi ortalama civarında. Yıllık fiyat endekslerinde; biber fiyat endeksi ortalama civarında.
-
-![image_alt](https://github.com/var-kemal/automated-analysis-reporter/blob/f51ed5f6cb642c4d08d3e81e0a92d7f73063d734/yearly_plot.png)
 
 	Aylık Değişim Grafiği
 Eylül ayında biber fiyat endeksi yıllık bazda yüzde 3.50 azaldı. Aynı dönemde biberin yıllık işlem miktarı yüzde 6.58 oranında arttı. Bu durum fiyat endeksindeki düşüşte etkili olmuştur.
