@@ -23,7 +23,9 @@ Burada:
 
 Ek hesaplamalar:
 
-![Delta R Denklemi](https://latex.codecogs.com/svg.latex?\color{White}\Delta&space;R(\%)&space;=&space;\frac{P_1&space;-&space;P_0}{P_0}&space;\times&space;100)
+<div align="center">
+  <img src="https://latex.codecogs.com/svg.latex?\color{White}\LARGE&space;\Delta&space;R(\%)&space;=&space;\frac{P_1&space;-&space;P_0}{P_0}&space;\times&space;100" alt="Yüzde Değişim Formülü">
+</div>
 
 Burada:
 - **$P_1$**: Cari (Yeni) Değer
