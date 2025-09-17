@@ -24,7 +24,7 @@ Burada:
 Ek hesaplamalar:
 
 $$
-\Delta R(\%) = \frac{P_1 - P_0}{P_0} \times 100 
+\Delta R(\%) = \frac{\sum(P_1 - P_0)}{P_0} \times 100 
 $$
 
 Burada:
