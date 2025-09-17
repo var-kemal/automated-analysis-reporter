@@ -23,7 +23,7 @@ Burada:
 
 Ek hesaplamalar:
 
-$$ \Delta R(\%) = \frac{P_1 - P_0}{P_0} \times 100 $$
+ΔR(%) = (P₁ - P₀) / P₀ × 100
 
 Burada:
 - **$P_1$**: Cari (Yeni) Değer
