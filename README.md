@@ -12,10 +12,14 @@
 
 📌 Laspeyres Fiyat Endeksi 
 
-\mathbit{P}_\mathbit{L}=\ \frac{\sum{(\mathbit{p}_\mathbit{t}\ast\mathbit{q}_\mathbf{0})}}{\sum{(\mathbit{p}_\mathbf{0}\ast\mathbit{q}_\mathbf{0})}}
-	\mathbit{p}_\mathbit{t} : Cari Dönem Fiyatı
-	\mathbit{p}_\mathbf{0} : Temel Yıl Fiyatı
-	\mathbit{q}_\mathbf{0}\ : Temel Yıl İşlem Miktarı
+$$
+P_L = \frac{\sum(p_t \cdot q_0)}{\sum(p_0 \cdot q_0)}
+$$
+
+Burada:
+- **$p_t$**: Cari Dönem Fiyatı
+- **$p_0$**: Temel Dönem/Yıl Fiyatı
+- **$q_0$**: Temel Dönem/Yıl İşlem Miktarı
 
 Ek hesaplamalar:
 
@@ -124,12 +128,16 @@ Kullanılan Kütüphaneler
 * **Belge İşleme:** * `python-docx` (Microsoft Word .docx dosyalarını oluşturmak ve değiştirmek için) 
 * **Excel Dosya İşleme:** * `openpyxl` (Excel .xlsx dosyalarını okumak/yazmak için) 
 * **Görsel Yardımcı Programlar:** * `Pillow` (Görüntü işleme yetenekleri için, özellikle GUI öğeleri için faydalı olabilir) 
+* **Yürütülebilir Dosya Oluşturma:** * `pyinstaller` (Python uygulamalarını bağımsız yürütülebilir dosyalar halinde paketlemek için) ---
 
 
 👤 Geliştirici
 Kemal Gvaramadze
-	Veri analizi ve yapay zeka alanında çalışmalar
-	Python ile masaüstü uygulama geliştirme
 
-* **Yürütülebilir Dosya Oluşturma:** * `pyinstaller` (Python uygulamalarını bağımsız yürütülebilir dosyalar halinde paketlemek için) ---
+kemalgvaramadze.is@gmail.com
+
+#Data_Analysis
+#Artificial_Intelligence
+#Python
+
 
