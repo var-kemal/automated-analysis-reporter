@@ -23,10 +23,14 @@ Burada:
 
 Ek hesaplamalar:
 
-\mathbit{\Delta R}(%)=\frac{\mathbit{P}_\mathbf{1}-\mathbit{P}_\mathbf{0}}{\mathbit{P}_\mathbf{0}}\ \times\ \mathbf{100}
-	\mathbit{P}_\mathbf{0} : Eski Değer
-	\mathbit{P}_\mathbf{1} : Cari Değer
-	∆R : Değişim Oranı
+$$
+\Delta R(\%) = \frac{P_1 - P_0}{P_0} \times 100
+$$
+
+Burada:
+- **$P_1$**: Cari (Yeni) Değer
+- **$P_0$**: Önceki (Eski) Değer
+- **$\Delta R$**: İki değer arasındaki yüzdesel değişim oranı
 
 
 
