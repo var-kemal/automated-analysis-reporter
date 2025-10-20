@@ -33,110 +33,26 @@ Burada:
 - **$\Delta R$**: İki değer arasındaki yüzdesel değişim oranı
 
 
+## 📑 Örnek Rapor (Eylül 2025 – Biber)
 
+### 📈 Grafikler  
 
+**Yıllık Değişim**  
+![Yıllık Değişim](https://github.com/var-kemal/automated-analysis-reporter/blob/deb6bffbdc1ad3dc59b8c0a7bc334e7262b2b9a0/yearly_plot.png)  
 
-📑 Örnek Rapor Çıktısı (Eylül 2025 – Biber)
+**Aylık Değişim**  
+![Biber Miktar Endeksi Aylık Değişim](https://github.com/var-kemal/automated-analysis-reporter/blob/ff8e1d25343c3641dc00b099b8af7668fec7b8c3/monthly_quantity.png)  
+![Biber Fiyat Endeksi Aylık Değişim](https://github.com/var-kemal/automated-analysis-reporter/blob/f814ef557547a9903b80d6ee53c50c6ed9a03888/monthly_amount.png)  
 
-📈 Grafikler
+---
 
-	Yıllık Değişim Grafiği
-![image alt](https://github.com/var-kemal/automated-analysis-reporter/blob/deb6bffbdc1ad3dc59b8c0a7bc334e7262b2b9a0/yearly_plot.png)
+### 📌 Yorum (Özet)
+- **Fiyat Endeksi:** Yıllık bazda %3.50 azaldı.  
+- **Miktar Endeksi:** Yıllık bazda %6.58 arttı → fiyat düşüşünde etkili.  
+- **Geçmiş Karşılaştırma:** 7 yıllık ortalamaya göre fiyat ve miktar ortalama civarında.  
+- **Eylül 2025:** Miktar endeksi %24.21 azaldı, fiyat endeksi %0.62 arttı.  
 
-Eylül ayında yıllık miktar endekslerinde; biber miktar endeksi ortalama civarında. Yıllık fiyat endekslerinde; biber fiyat endeksi ortalama civarında.
+---
 
-	Aylık Değişim Grafiği
- ![Biber Miktar Endeksi Aylık Değişim](https://github.com/var-kemal/automated-analysis-reporter/blob/ff8e1d25343c3641dc00b099b8af7668fec7b8c3/monthly_quantity.png)
-
- ![Biber Fiyat Endeksi Aylık Değişim](https://github.com/var-kemal/automated-analysis-reporter/blob/f814ef557547a9903b80d6ee53c50c6ed9a03888/monthly_amount.png)
- 
-Eylül ayında biber fiyat endeksi yıllık bazda yüzde 3.50 azaldı. Aynı dönemde biberin yıllık işlem miktarı yüzde 6.58 oranında arttı. Bu durum fiyat endeksindeki düşüşte etkili olmuştur.
-Eylül ayında, son yedi yılın verileri dikkate alındığında biber satış miktarı ortalama civarında olarak kaydedildi. Biber fiyat seviyesi ortalama civarında olarak gerçekleşti.
-Eylül ayında biber işlem miktar endeksi yüzde 24.21 azalırken, işlem fiyat endeksi yüzde 0.62 artış gösterdi; son yedi yılın Eylül ayları dikkate alındığında, işlem miktar endeksi altıncı en büyük azalış; son yedi yılın Eylül ayları dikkate alındığında, işlem fiyat endeksi beşinci en büyük artış olarak kaydedildi.
-
-
-
-
-
-
-
-
-
-
-
-🧑‍💻 Kullanıcı Senaryosu
-	
- 	Kullanıcı uygulamayı açar (UrunlerAnalizRapor.exe).
-	“Veri Girişi” menüsünden Domates – 2023 – Mart – 25.000.000 kg – 300.000.000 ₺ bilgisi ekler.
-	Sistem veriyi data.xlsx içine işler.
-	“Rapor Oluştur” seçeneği ile Mart 2023 raporu üretilir.
-	Word raporunda:
-	Domates için miktar ve fiyat endeksleri
-	Mart ayı karşılaştırmaları
-	Grafikler ve doğal dil yorumları yer alır.
-
-📑 Uygulamanın Veri İşleme ve Raporlama Süreci
-1. Veri Yükleme ve Hazırlık
-	Uygulama, temel veri setini Excel (data.xlsx) dosyasından okur.
-	Veriler ürün adı, yıl, ay, miktar ve tutar bilgilerini içerir.
-	Gerekirse otomatik olarak yeni Excel dosyası oluşturulur.
-
-2. Tablo Üretimi ve Yorumlama 
-	Tablo, seçilen ürünlerin endekslerini gösterir:
-	Miktar Endeksi:
-	Endeks değeri
-	Önceki aya göre değişim (%)
-	Geçen yılın aynı ayına göre değişim (%)
-	Fiyat Endeksi:
-	Endeks değeri
-	Önceki aya göre değişim (%)
-	Geçen yılın aynı ayına göre değişim (%)
-	Bu tabloya dayanarak otomatik yorum metinleri üretilir.
-	Yorumlar: ürünlerin aylık ve yıllık bazda nasıl değişim gösterdiğini özetler.
-
-3. Grafik Üretimi
-Uygulama 2 tür grafik oluşturur:
-	Aylık Grafikler
-	Son 7 yılın verileri kullanılır
-	Miktar endeksi (daire işaretli çizgi)
-	Fiyat endeksi (kare işaretli çizgi)
-	Güncel yıl kırmızı renkle vurgulanır
-	Tablo altına yorum eklenir
-	Yıllık Grafikler
-	Son 10 yılın aynı ayı karşılaştırılır
-	Hem miktar hem fiyat endeksi birlikte gösterilir
-	Eğilimler görselleştirilir (artış/azalış trendi)
-
-4. Analiz ve Yorumlar
-	Aylık Analiz:
-	Seçilen ayın verileri önceki ay ve geçen yıl ile kıyaslanır
-	Artış/azalış yüzdesi belirtilir
-	Ortalama değerlerin altında/üstünde olup olmadığı vurgulanır
-	Yıllık Analiz:
-	Uzun vadeli eğilimler değerlendirilir
-	Örneğin: “Son 7 yılın Eylül ayları dikkate alındığında, biber miktar endeksi altıncı en büyük azalış olarak kaydedildi.”
-Bu sayede rapor, sadece tablo ve grafik değil, aynı zamanda yorumlanmış metinsel özet içerir.
-
-5. Şirkete Sağladığı Avantajlar
-	Otomasyon: Manuel rapor hazırlama süresini ortadan kaldırır.
-	Hızlı Karar Alma: Yönetim, aylık raporları dakikalar içinde elde eder.
-	Standartlaşma: Tüm raporlar aynı formatta, profesyonel görsellikte üretilir.
-	Detaylı Analiz: Hem tablo hem grafik hem de metinsel yorumlar sunularak çok yönlü analiz sağlanır.
-	Geçmiş Karşılaştırmaları: 7–10 yıllık veri üzerinden trend analizi yapılır.
-
-Kullanılan Kütüphaneler
-
-* **GUI Framework:** * `customtkinter` (Modern ve özelleştirilebilir bir Tkinter uzantısı) 
-* **Veri İşleme ve Analizi:** * `pandas` (Veri manipülasyonu ve analizi için) * `numpy` (Sayısal işlemler ve bilimsel hesaplamalar için) 
-* **Veri Görselleştirme:** * `matplotlib` (Statik, interaktif ve hareketli görselleştirmeler oluşturmak için) * `seaborn` (Matplotlib üzerine kurulu, istatistiksel grafikler için üst düzey bir arayüz) 
-* **Belge İşleme:** * `python-docx` (Microsoft Word .docx dosyalarını oluşturmak ve değiştirmek için) 
-* **Excel Dosya İşleme:** * `openpyxl` (Excel .xlsx dosyalarını okumak/yazmak için) 
-* **Görsel Yardımcı Programlar:** * `Pillow` (Görüntü işleme yetenekleri için, özellikle GUI öğeleri için faydalı olabilir) 
-* **Yürütülebilir Dosya Oluşturma:** * `pyinstaller` (Python uygulamalarını bağımsız yürütülebilir dosyalar halinde paketlemek için) ---
-
-
-👤 Geliştirici
-Kemal Gvaramadze
-
-kemalgvaramadze.is@gmail.com
-
+👤 **Geliştirici:** Kemal Gvaramadze  
+📧 **İletişim:** kemalgvaramadze.is@gmail.com
